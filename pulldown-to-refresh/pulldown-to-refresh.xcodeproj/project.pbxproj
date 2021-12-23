@@ -489,9 +489,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"pulldown-to-refresh/Preview Content\"";
-				DEVELOPMENT_TEAM = K6X56F623L;
+				DEVELOPMENT_TEAM = 3K558Y5NQS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "pulldown-to-refresh/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -499,8 +500,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sachindaingade.pulldown-to-refresh";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindaingade.refresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -511,9 +513,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"pulldown-to-refresh/Preview Content\"";
-				DEVELOPMENT_TEAM = K6X56F623L;
+				DEVELOPMENT_TEAM = 3K558Y5NQS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "pulldown-to-refresh/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -521,8 +524,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sachindaingade.pulldown-to-refresh";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindaingade.refresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

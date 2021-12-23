@@ -25,7 +25,6 @@ struct customRefreshView: ViewModifier {
     let action: () -> Void
     func body(content: Content) -> some View {
         ZStack {
-            content
             GeometryReader { geometryReader in
                 RefreshableScrollView(width: geometryReader.size.width, height: geometryReader.size.height) {
                     action()
